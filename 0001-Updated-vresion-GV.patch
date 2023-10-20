@@ -1,0 +1,112 @@
+From 938b3f4e2b27275a5f668152db61dc7016f1f54b Mon Sep 17 00:00:00 2001
+From: Gaurav Vaghmar <gauravaghmar17@gmail.com>
+Date: Fri, 20 Oct 2023 13:08:58 -0500
+Subject: [PATCH] Updated vresion GV
+
+---
+ .idea/.gitignore                 |  8 ++++++++
+ .idea/aws.xml                    | 11 +++++++++++
+ .idea/forage-jpmc-swe-task-2.iml |  9 +++++++++
+ .idea/misc.xml                   |  6 ++++++
+ .idea/modules.xml                |  8 ++++++++
+ .idea/vcs.xml                    |  6 ++++++
+ 6 files changed, 48 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/aws.xml
+ create mode 100644 .idea/forage-jpmc-swe-task-2.iml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+index 0000000..13566b8
+--- /dev/null
++++ b/.idea/.gitignore
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+diff --git a/.idea/aws.xml b/.idea/aws.xml
+new file mode 100644
+index 0000000..b63b642
+--- /dev/null
++++ b/.idea/aws.xml
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="accountSettings">
++    <option name="activeRegion" value="us-east-1" />
++    <option name="recentlyUsedRegions">
++      <list>
++        <option value="us-east-1" />
++      </list>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/forage-jpmc-swe-task-2.iml b/.idea/forage-jpmc-swe-task-2.iml
+new file mode 100644
+index 0000000..d6ebd48
+--- /dev/null
++++ b/.idea/forage-jpmc-swe-task-2.iml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000..639900d
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..2afa09c
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/forage-jpmc-swe-task-2.iml" filepath="$PROJECT_DIR$/.idea/forage-jpmc-swe-task-2.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..35eb1dd
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+-- 
+2.32.0 (Apple Git-132)
+
